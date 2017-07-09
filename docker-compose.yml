@@ -2,6 +2,6 @@ version: "2"
 services:
   shell:
     image: eduardoshanahan/python:latest
-    container_name: es_python
+    container_name: eduardoshanahan_python
     entrypoint:
       - /bin/sh

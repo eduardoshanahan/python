@@ -1,9 +1,9 @@
-FROM eduardoshanahan/alpine:3.5.0
+FROM eduardoshanahan/alpine:latest
 
 MAINTAINER Eduardo Shanahan <contact@eduardoshanahan.com>
 
-RUN apk --add update \
-    python \
+RUN apk update \
+    add python \
     python-dev \
     && rm -rf /var/cache/apk/*
 
