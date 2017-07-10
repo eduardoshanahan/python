@@ -44,16 +44,16 @@ Remember to replace the 'eduardo.mac.bitbucket' and 'eduardo.mac.github' with th
 
 ## Edit Git configuration
 
-Once you have your local git repository created and commited, and your remote is setup as well, you need to edit the local Git configuration.
+Once you have your local git repository created and committed, and your remote is setup as well, you need to edit the local Git configuration.
 
 Edit the file .git/config, and put the following details:
 
 ```
 [remote "github"]
-	url = ssh://git@github.com-eduardoshanahan/eduardoshanahan/alpine.git
+	url = ssh://git@github.com-eduardoshanahan/eduardoshanahan/python.git
 	fetch = +refs/heads/*:refs/remotes/github/*
 [remote "bitbucket"]
-	url = ssh://git@bitbucket.org-eduardoshanahan/eduardoshanahan/alpine.git
+	url = ssh://git@bitbucket.org-eduardoshanahan/eduardoshanahan/python.git
 	fetch = +refs/heads/*:refs/remotes/bitbucket/*
 [user]
 	name = Eduardo Shanahan

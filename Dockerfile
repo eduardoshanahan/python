@@ -2,9 +2,7 @@ FROM eduardoshanahan/alpine:latest
 
 MAINTAINER Eduardo Shanahan <contact@eduardoshanahan.com>
 
-RUN apk add --update \
-    python \
-    python-dev \
-    && rm -rf /var/cache/apk/*
+RUN apk --update \
+    add --no-cache python
 
 ENTRYPOINT ["/bin/sh"]
