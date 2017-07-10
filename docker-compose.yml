@@ -1,5 +1,7 @@
 version: "2"
+
 services:
+  
   shell:
     image: eduardoshanahan/python:latest
     container_name: eduardoshanahan_python
