@@ -5,4 +5,5 @@
 * Removed: bumpversion details
 * Added: CHANGELOG.md
 * Added: version.json
-* Updated: Readme
+* Updated: Readme instructions
+* Updated: Alpine 3.6.0
