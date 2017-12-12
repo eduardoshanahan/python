@@ -1,8 +1,7 @@
-FROM eduardoshanahan/alpine:3.6.0
+FROM eduardoshanahan/alpine:3.6.0.1
 
 LABEL maintainer "Eduardo Shanahan <contact@eduardoshanahan.com>"
 
-RUN apk --update \
-    add --no-cache python
+RUN add --no-cache python
 
 ENTRYPOINT ["/bin/sh"]
