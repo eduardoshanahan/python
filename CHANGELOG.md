@@ -1,5 +1,9 @@
 # Changelog
 
+## 2017-12-14
+
+* Changed: added a tag creation script
+
 ## [2.7.13.r1.2] - 2017-12-12
 
 * Changed: Removed update from Alpine packages
