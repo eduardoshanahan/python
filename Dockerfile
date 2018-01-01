@@ -1,4 +1,4 @@
-FROM eduardoshanahan/alpine:3.6.0.4
+FROM eduardoshanahan/alpine:3.7.0.1
 
 LABEL maintainer "Eduardo Shanahan <contact@eduardoshanahan.com>"
 
