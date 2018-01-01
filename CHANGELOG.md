@@ -1,5 +1,10 @@
 # Changelog
 
+
+## [2.7.13.4] 2018-01-01
+
+* Changed: Updated Alpine packages
+
 ## [2.7.13.3] 2017-12-14
 
 * Changed: Alpine base image updated to 3.6.0.3
