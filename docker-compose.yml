@@ -5,5 +5,26 @@ services:
   shell:
     image: eduardoshanahan/python:latest
     container_name: eduardoshanahan_python
+    stdin_open: true
+    tty: true
+    volumes:
+        - keys:/root/.ssh
+        - local:/local
     entrypoint:
       - /bin/sh
+
+volumes:
+
+  keys:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: $HOME/.ssh
+
+  local:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: $PWD

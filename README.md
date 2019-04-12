@@ -6,6 +6,14 @@
 docker build . -t eduardoshanahan/python:latest
 ```
 
+The script
+
+```
+./build.sh
+```
+
+will do the same and create also a build with the version number contained in version.json.
+
 ## Running an interactive test
 
 ```
@@ -16,6 +24,18 @@ Or with Docker Compose
 
 ```
 docker-compose run --rm shell
+```
+
+You can also run all from compose:
+
+```
+docker-compose up
+```
+
+and attach to the container:
+
+```
+docker attach es_shell_python
 ```
 
 ## Building an image in Docker Hub

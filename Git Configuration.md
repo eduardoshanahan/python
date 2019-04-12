@@ -1,6 +1,11 @@
-[TOC]
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+  - [Git configuration <a name="gitintroduction"></a>](#git-configuration-a-name%22gitintroduction%22a)
+  - [Configuring the SSH keys](#configuring-the-ssh-keys)
+  - [Edit SSH configuration](#edit-ssh-configuration)
+  - [Edit Git configuration](#edit-git-configuration)
 
-# Git configuration`
+## Git configuration <a name="gitintroduction"></a>
 
 Working with git using multiple accounts might be tricky.
 
@@ -9,8 +14,8 @@ There are three things that needs to be aligned:
 * The ssh keys
 * The ssh configuration
 * The git repository configuration
-
-## Configuring the SSH keys
+* 
+### Configuring the SSH keys <a name="configuringsshkeys"></a>
 
 Create a key for each account:
 ```

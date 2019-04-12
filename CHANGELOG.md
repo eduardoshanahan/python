@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.15] 2019-04-12
+
+* Changed: Alpine version 3.9.2
+* Changed: Python to 2.7.15
+* Changed: Instructions
+* Changed: Added logging details in scripts
+
 ## [2.7.13.5] 2018-01-01
 
 * Changed: New Alpine version
